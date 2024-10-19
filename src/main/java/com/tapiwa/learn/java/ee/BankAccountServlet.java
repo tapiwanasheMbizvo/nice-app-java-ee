@@ -4,7 +4,6 @@ import com.tapiwa.learn.java.ee.models.BankAccount;
 import com.tapiwa.learn.java.ee.services.BankAccountService;
 
 import javax.inject.Inject;
-import javax.servlet.http.HttpServlet;
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
@@ -12,7 +11,7 @@ import java.util.List;
 
 
 @Path("/bank-accounts")
-public class BankAccountServlet extends HttpServlet {
+public class BankAccountServlet {
 
     @Inject
     private BankAccountService bankAccountService;
