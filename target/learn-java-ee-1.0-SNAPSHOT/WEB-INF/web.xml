@@ -1,3 +1,5 @@
+<!--
+
 <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xmlns="http://java.sun.com/xml/ns/javaee"
          xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
@@ -9,8 +11,19 @@ http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
         <servlet-name>HelloServlet</servlet-name>
         <servlet-class>com.tapiwa.learn.java.ee.HelloWorldServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>bankAccountServlet</servlet-name>
+        <servlet-class>com.tapiwa.learn.java.ee.BankAccountServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>bankAccountServlet</servlet-name>
+        <url-pattern>/bank-accounts</url-pattern>
+    </servlet-mapping>
     <servlet-mapping>
         <servlet-name>HelloServlet</servlet-name>
         <url-pattern>/hello</url-pattern>
     </servlet-mapping>
 </web-app>
+
+-->

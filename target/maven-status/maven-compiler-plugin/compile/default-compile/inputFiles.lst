@@ -1,2 +1,7 @@
-/home/dev/spring-apps/java-ee-apps/nice-app-java-ee/src/main/java/com/tapiwa/learn/java/ee/App.java
-/home/dev/spring-apps/java-ee-apps/nice-app-java-ee/src/main/java/com/tapiwa/learn/java/ee/HelloWorldServlet.java
+C:\devops\spring\java-ee\learn-java-ee\src\main\java\com\tapiwa\learn\java\ee\App.java
+C:\devops\spring\java-ee\learn-java-ee\src\main\java\com\tapiwa\learn\java\ee\BankAccountServlet.java
+C:\devops\spring\java-ee\learn-java-ee\src\main\java\com\tapiwa\learn\java\ee\config\ApplicationConfig.java
+C:\devops\spring\java-ee\learn-java-ee\src\main\java\com\tapiwa\learn\java\ee\HelloWorldServlet.java
+C:\devops\spring\java-ee\learn-java-ee\src\main\java\com\tapiwa\learn\java\ee\models\BankAccount.java
+C:\devops\spring\java-ee\learn-java-ee\src\main\java\com\tapiwa\learn\java\ee\serviceImpl\BankAccountServiceImpl.java
+C:\devops\spring\java-ee\learn-java-ee\src\main\java\com\tapiwa\learn\java\ee\services\BankAccountService.java
